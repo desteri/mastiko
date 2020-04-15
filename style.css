@@ -8,23 +8,12 @@ body {
     background-color: lightgray;
 }
 .all-inclusive {
-    padding: 20px 30px;
+    padding: 28px 50px;
     background-color: white;
-}
-.photo, .author {
-    display: inline-block;
-}
-.author {
-    margin-left: 60px;
-    margin-bottom: 0;
 }
 a {
     text-decoration: none;
     color: dimgray;
-}
-img {
-    display: inline-block;
-    vertical-align: bottom;	
 }
 p {
 	margin-bottom: 12px;
@@ -38,7 +27,7 @@ h3 {
 }
 h1 {
 	font-size: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 0;
 }
 h2 {
 	font-size: 32px;
@@ -51,4 +40,5 @@ h2 {
 }
 .footer {
 	text-align: center;
+    
 }
