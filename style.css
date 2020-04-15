@@ -24,9 +24,7 @@ a {
 }
 img {
     display: inline-block;
-    vertical-align: bottom;
-    width: 150px;
-    height: 150px;	
+    vertical-align: bottom;	
 }
 p {
 	margin-bottom: 12px;
