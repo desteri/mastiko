@@ -1,34 +1,58 @@
 body {
-  font-family: Georgia;
-  font-size: 16px;
-  margin: 0 auto;   /* center content */
-  max-width: 800px; /* limit width */
-  line-height: 1.5;
-  padding-top: 32px;
-  padding-bottom: 32px;
+    font-family: Georgia;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 800px;
+    max-height: 1000px;
+    line-height: 1.5;
+    background-color: lightgray;
 }
-
-/* BEGIN (write your solution here) */
+.all-inclusive {
+    padding: 20px 30px;
+    background-color: white;
+}
+.header img {
+    width: 150px;
+    height: 150px;
+}
+.photo, .author {
+    display: inline-block;
+}
+.author {
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: inline-block;
+    vertical-align: bottom;
+}
 p {
 	margin-bottom: 12px;
 }
 h1, h2, h3 {
 	font-weight: 400;
 }
+h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
 h1 {
-	font-size: 36px;
-	margin-bottom: 0;
+	font-size: 40px;
+	margin-bottom: 40px;
 }
 h2 {
 	font-size: 32px;
 	border-bottom: solid 1px gray;
-	margin-bottom: 8px;
+	margin-bottom: 10px;
 }
-#header {
+.header {
 	margin-bottom: 32px;
 	text-align: center;
 }
-#footer {
-	margin-bottom: 64px;
+.footer {
 	text-align: center;
+    
 }
