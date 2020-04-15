@@ -24,6 +24,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: dimgray;
 }
 img {
     display: inline-block;
@@ -54,5 +55,4 @@ h2 {
 }
 .footer {
 	text-align: center;
-    
 }
