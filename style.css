@@ -11,10 +11,6 @@ body {
     padding: 20px 30px;
     background-color: white;
 }
-.header img {
-    width: 150px;
-    height: 150px;
-}
 .photo, .author {
     display: inline-block;
 }
@@ -29,6 +25,8 @@ a {
 img {
     display: inline-block;
     vertical-align: bottom;
+    width: 150px;
+    height: 150px;	
 }
 p {
 	margin-bottom: 12px;
